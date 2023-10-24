@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calc</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/media-style.css" />
+	</head>
+	<body>
+		<main>
+			<div class="wrapper">
+				<div class="box">
+					<label>
+						<span>Первая цифра</span>
+						<input type="number" id="num-1" />
+					</label>
+					
+					<label>
+						<span>Операция</span>
+						<select id="operations">
+							<option value="plus">+</option>
+							<option value="minus">-</option>
+							<option value="multiplication">*</option>
+							<option value="division">/</option>
+						</select>
+					</label>
+					
+					<label>
+						<span>Вторая цифра</span>
+						<input type="number" id="num-2" />
+					</label>
+
+					<button type="button" id="calc">=</button>
+					<div class="result"></div>
+				</div>
+			</div>
+		</main>
+		<script src="script/script.js"></script>
+	</body>
+</html>
